@@ -15,6 +15,9 @@ package com.vedicae.nvunity.block;
  * absorb excess power this way.
  * 
  * Needs to save power (and possibly state) when picked up.  
+ * 
+ * Make a lower-tier version that'll only output when that network is empty of energy, so that it works like a UPS.
+ * But that version needs a much, much lower power storage.  
  */
 public class BlockBlackbody {
 
